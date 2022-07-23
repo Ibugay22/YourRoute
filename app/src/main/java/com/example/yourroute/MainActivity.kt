@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         MapKitFactory.setApiKey("27af7f0a-ad24-45f3-88c1-eecf2ff910ce")
         MapKitFactory.initialize(this)
     }
+    //
 
     override fun onStart() {
         binding.mapView.onStart()
